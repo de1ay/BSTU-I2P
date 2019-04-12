@@ -42,8 +42,12 @@ body {
     align-items: center;
     border-left: 4px solid #fff;
     border-right: 4px solid transparent;
+    text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+
+.menu-item:visited > i { color: #333333 }
+.menu-item--active:visited > i { color: blue; }
 
 .menu-item:hover {
     border-left: 4px solid blue;
