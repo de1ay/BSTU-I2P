@@ -42,16 +42,17 @@ body {
   align-items: center;
   border-left: 4px solid #fff;
   border-right: 4px solid transparent;
+  color: transparent;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
 }
 
 .menu-item > i         { color: #333333; }
 .menu-item:visited > i { color: #333333 }
 
 .menu-item:hover {
-border-left: 4px solid blue;
-cursor: pointer;
+  border-left: 4px solid blue;
+  cursor: pointer;
 }
 
 .menu-item--active             { border-left: 4px solid blue; }
