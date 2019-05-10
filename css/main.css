@@ -12,10 +12,6 @@ body {
   grid-template-columns: 60px auto;
 }
 
-.header {
-
-}
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -35,10 +31,6 @@ body {
 
 .menu-action > i { color: #7f8c8d; }
 
-.menu-img {
-  height: 40px;
-}
-
 .menu-item {
   height: 60px;
   display: flex;
@@ -51,8 +43,9 @@ body {
   transition: border-color 0.3s ease-in-out;
 }
 
+.menu-img              { height: 40px; }
 .menu-item > i         { color: #7f8c8d; }
-.menu-item:visited > i { color: #7f8c8d }
+.menu-item:visited > i { color: #7f8c8d; }
 
 .menu-item:hover {
   border-left: 4px solid #1e90ff;

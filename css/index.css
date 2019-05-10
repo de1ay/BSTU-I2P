@@ -11,19 +11,41 @@
     margin: 0 60px 60px 0;
     width: 400px;
     height: 300px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 200px 100px;
     background: #fff;
 }
 
 .card-img > img {
     width: 100%;
-    height: 150px;
+    height: 200px;
+    filter: brightness(0.6)
 }
 
 .card-header {
-    margin: 20px;
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 30px;
+}
+
+.card-header > span { 
+    position: absolute;
+    left: 20px;
+    bottom: 20px; 
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card-body {
+    margin: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
 }
